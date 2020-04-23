@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7</guid>
+	<type>material</type>
+	<hash>39e6d907</hash>
+	<runtimes>
+		<runtime id="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7" name="roadmat1" link="0"/>
+	</runtimes>
+</asset>

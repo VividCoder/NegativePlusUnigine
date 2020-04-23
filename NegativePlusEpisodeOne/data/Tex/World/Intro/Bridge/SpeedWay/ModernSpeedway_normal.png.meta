@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0e5a1cebb17b0d4e9399b4559563f9b00a2ec14f</guid>
+	<type>texture</type>
+	<hash>4b4a2a4e</hash>
+	<runtimes>
+		<runtime id="0e5a1cebb17b0d4e9399b4559563f9b00a2ec14f" name="ModernSpeedway_normal.png" link="0"/>
+		<runtime id="428b3e622fee2a59b3178fe4c53a19f3ef7416b6" name="ModernSpeedway_normal.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

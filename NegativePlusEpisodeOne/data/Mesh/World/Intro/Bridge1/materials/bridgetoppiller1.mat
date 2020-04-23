@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="bridgetoppiller1" guid="dfd0920df77c8c081a553fc7c49b7a7a210ac791" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<texture name="diffuse">guid://cae48f049269ce93007802d65a8e5c3d905ef078</texture>
+	<texture name="specular">guid://48c97ad3343542168f9e127d5108b1b82ba749b7</texture>
+	<texture name="normal">guid://28b02632377acfe94a4358347413260378d81386</texture>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

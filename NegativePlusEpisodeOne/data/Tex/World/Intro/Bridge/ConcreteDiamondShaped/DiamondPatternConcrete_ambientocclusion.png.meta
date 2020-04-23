@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>19d9467600108b5d70e215181ba99597d164b60a</guid>
+	<type>texture</type>
+	<hash>94c396e7</hash>
+	<runtimes>
+		<runtime id="19d9467600108b5d70e215181ba99597d164b60a" name="DiamondPatternConcrete_ambientocclusion.png" link="0"/>
+		<runtime id="c60e2de16c67edcc5f614ebb8a0174de3cc056a5" name="DiamondPatternConcrete_ambientocclusion.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

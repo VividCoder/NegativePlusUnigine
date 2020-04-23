@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>27f4b2c938b91d94c3126be30485dfe6abe6f60d</guid>
+	<type>texture</type>
+	<hash>4c9e7167</hash>
+	<runtimes>
+		<runtime id="27f4b2c938b91d94c3126be30485dfe6abe6f60d" name="DiamondPatternConcrete_height.png" link="0"/>
+		<runtime id="0477a008c10d43c7f18bae7a31f56b910fea2fbc" name="DiamondPatternConcrete_height.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">R16</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>51a90949a3d8821486358663805d38666799748d</guid>
+	<type>texture</type>
+	<hash>a3923aff</hash>
+	<runtimes>
+		<runtime id="51a90949a3d8821486358663805d38666799748d" name="Highway_road_wet_01_2K_Roughness.png" link="0"/>
+		<runtime id="056f0c88fb58c647bbe04efadcb49211a776243c" name="Highway_road_wet_01_2K_Roughness.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

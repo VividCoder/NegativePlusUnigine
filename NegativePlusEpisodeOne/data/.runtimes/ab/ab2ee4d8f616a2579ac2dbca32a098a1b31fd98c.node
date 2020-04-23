@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.11.0.0">
+	<node type="NodeDummy" id="167394945" name="intro_bridge1">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="223620321" name="intro_bridge1">
+			<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+			<surface name="material" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+			<surface name="bridgetoppiller1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+			<surface name="bridgeconcrete1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+			<surface name="bridgesidesupport" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+			<surface name="roadmat1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+			<surface name="bridgetop1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+			<surface name="bridgetop2" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+			<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

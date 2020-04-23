@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>75f55010c95a642f4287c3c2d34530393dba1c44</guid>
+	<type>texture</type>
+	<hash>d521211f</hash>
+	<runtimes>
+		<runtime id="75f55010c95a642f4287c3c2d34530393dba1c44" name="ScifabricPaddedCorridorMetallic_metallic.png" link="0"/>
+		<runtime id="48c97ad3343542168f9e127d5108b1b82ba749b7" name="ScifabricPaddedCorridorMetallic_metallic.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

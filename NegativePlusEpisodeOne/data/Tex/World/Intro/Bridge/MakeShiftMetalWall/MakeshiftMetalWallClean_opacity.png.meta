@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>43263d4fde848a62dbdf0659e1fabbe4f64b55f3</guid>
+	<type>texture</type>
+	<hash>7a5d50ab</hash>
+	<runtimes>
+		<runtime id="43263d4fde848a62dbdf0659e1fabbe4f64b55f3" name="MakeshiftMetalWallClean_opacity.png" link="0"/>
+		<runtime id="273c22b694173a9dbc4c7b58510e46d7f561364a" name="MakeshiftMetalWallClean_opacity.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

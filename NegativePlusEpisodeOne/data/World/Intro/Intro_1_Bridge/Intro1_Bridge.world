@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<world version="2.10.0.0">
+<world version="2.11.0.0">
 	<data>
 		<settings>
 			<item name="save_camera">1</item>
@@ -121,21 +121,21 @@
 		<render_bent_normal_ray_tracing_threshold>1</render_bent_normal_ray_tracing_threshold>
 		<render_bloom>1</render_bloom>
 		<render_bloom_passes>7</render_bloom_passes>
-		<render_bloom_power>1</render_bloom_power>
-		<render_bloom_resolution>1</render_bloom_resolution>
-		<render_bloom_scale>0.100000001</render_bloom_scale>
+		<render_bloom_power>0.119800001</render_bloom_power>
+		<render_bloom_resolution>2</render_bloom_resolution>
+		<render_bloom_scale>1.19760001</render_bloom_scale>
 		<render_border>0 0</render_border>
 		<render_budget>0.0160000008</render_budget>
 		<render_camera_effects_temporal_filtering>0</render_camera_effects_temporal_filtering>
 		<render_camera_effects_threshold>1.20000005</render_camera_effects_threshold>
-		<render_camera_mode>0</render_camera_mode>
+		<render_camera_mode>1</render_camera_mode>
 		<render_clouds_distortion_texture>0</render_clouds_distortion_texture>
 		<render_clouds_downsampling_rendering>1</render_clouds_downsampling_rendering>
 		<render_clouds_dynamic_coverage_area>10000</render_clouds_dynamic_coverage_area>
-		<render_clouds_dynamic_coverage_resolution>256</render_clouds_dynamic_coverage_resolution>
+		<render_clouds_dynamic_coverage_resolution>512</render_clouds_dynamic_coverage_resolution>
 		<render_clouds_enabled>1</render_clouds_enabled>
 		<render_clouds_ground_shadows>1</render_clouds_ground_shadows>
-		<render_clouds_interleaved_rendering>0</render_clouds_interleaved_rendering>
+		<render_clouds_interleaved_rendering>1</render_clouds_interleaved_rendering>
 		<render_clouds_lighting_cone_radius>0.300000012</render_clouds_lighting_cone_radius>
 		<render_clouds_lighting_quality>1</render_clouds_lighting_quality>
 		<render_clouds_lighting_tracelength>100</render_clouds_lighting_tracelength>
@@ -148,12 +148,12 @@
 		<render_clouds_shadow_shafts>1</render_clouds_shadow_shafts>
 		<render_clouds_simplified_depth_test>1</render_clouds_simplified_depth_test>
 		<render_clouds_soft_intersection>100</render_clouds_soft_intersection>
-		<render_clouds_transparent_order>0</render_clouds_transparent_order>
-		<render_cross>0</render_cross>
+		<render_clouds_transparent_order>1</render_clouds_transparent_order>
+		<render_cross>1</render_cross>
 		<render_cross_angle>45</render_cross_angle>
 		<render_cross_color>1 1 1 1</render_cross_color>
 		<render_cross_length>0.200000003</render_cross_length>
-		<render_cross_scale>0.400000006</render_cross_scale>
+		<render_cross_scale>2.69460011</render_cross_scale>
 		<render_cross_shafts>6</render_cross_shafts>
 		<render_cross_threshold>0</render_cross_threshold>
 		<render_debug>1</render_debug>
@@ -162,23 +162,23 @@
 		<render_depth_pre_pass>0</render_depth_pre_pass>
 		<render_dirt_scale>0.5</render_dirt_scale>
 		<render_distance_scale>1</render_distance_scale>
-		<render_dof>0</render_dof>
-		<render_dof_blur>1</render_dof_blur>
+		<render_dof>1</render_dof>
+		<render_dof_blur>0.285699993</render_dof_blur>
 		<render_dof_bokeh_mode>0</render_dof_bokeh_mode>
-		<render_dof_chromatic_aberration>0</render_dof_chromatic_aberration>
+		<render_dof_chromatic_aberration>2.76189995</render_dof_chromatic_aberration>
 		<render_dof_far_distance>10</render_dof_far_distance>
-		<render_dof_far_focal_offset>9.99999997e-07</render_dof_far_focal_offset>
-		<render_dof_focal_distance>1</render_dof_focal_distance>
-		<render_dof_focus_improvement>0</render_dof_focus_improvement>
-		<render_dof_increased_accuracy>0</render_dof_increased_accuracy>
+		<render_dof_far_focal_offset>2.75449991</render_dof_far_focal_offset>
+		<render_dof_focal_distance>4.97179985</render_dof_focal_distance>
+		<render_dof_focus_improvement>1</render_dof_focus_improvement>
+		<render_dof_increased_accuracy>1</render_dof_increased_accuracy>
 		<render_dof_near_distance>10</render_dof_near_distance>
-		<render_dof_near_focal_offset>9.99999997e-07</render_dof_near_focal_offset>
-		<render_dof_quality>1</render_dof_quality>
+		<render_dof_near_focal_offset>0</render_dof_near_focal_offset>
+		<render_dof_quality>3</render_dof_quality>
 		<render_dof_resolution>2</render_dof_resolution>
 		<render_environment>1</render_environment>
-		<render_environment_correct_roughness>2</render_environment_correct_roughness>
+		<render_environment_correct_roughness>1</render_environment_correct_roughness>
 		<render_environment_cubemap_blend>0</render_environment_cubemap_blend>
-		<render_environment_haze>2</render_environment_haze>
+		<render_environment_haze>1</render_environment_haze>
 		<render_environment_haze_gradient>0</render_environment_haze_gradient>
 		<render_exposure>0.600000024</render_exposure>
 		<render_exposure_adaptation>1</render_exposure_adaptation>
@@ -208,7 +208,7 @@
 		<render_fxaa>0</render_fxaa>
 		<render_fxaa_intensity>0</render_fxaa_intensity>
 		<render_gbuffer_lightmap>1</render_gbuffer_lightmap>
-		<render_iso>100</render_iso>
+		<render_iso>13</render_iso>
 		<render_landscape_cache_cpu_size>10</render_landscape_cache_cpu_size>
 		<render_landscape_cache_gpu_life_time>4</render_landscape_cache_gpu_life_time>
 		<render_landscape_cache_gpu_size>5</render_landscape_cache_gpu_size>
@@ -234,12 +234,12 @@
 		<render_landscape_terrain_vt_tiles_reload_per_frame>4</render_landscape_terrain_vt_tiles_reload_per_frame>
 		<render_landscape_terrain_vt_tiles_update_per_frame>14</render_landscape_terrain_vt_tiles_update_per_frame>
 		<render_latency>1</render_latency>
-		<render_lens>0</render_lens>
+		<render_lens>1</render_lens>
 		<render_lens_color>1 1 1 1</render_lens_color>
 		<render_lens_dispersion>1 1 1</render_lens_dispersion>
-		<render_lens_length>0.153999999</render_lens_length>
-		<render_lens_radius>0.270999998</render_lens_radius>
-		<render_lens_scale>0.0350000001</render_lens_scale>
+		<render_lens_length>0.377249986</render_lens_length>
+		<render_lens_radius>0.173649997</render_lens_radius>
+		<render_lens_scale>1.31739998</render_lens_scale>
 		<render_lens_threshold>1</render_lens_threshold>
 		<render_light_distance>1e+09</render_light_distance>
 		<render_lights_enabled>1</render_lights_enabled>
@@ -256,7 +256,7 @@
 		<render_lights_max_per_batch>1024</render_lights_max_per_batch>
 		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
 		<render_max_fps>0</render_max_fps>
-		<render_motion_blur>0</render_motion_blur>
+		<render_motion_blur>1</render_motion_blur>
 		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
 		<render_motion_blur_max_velocity>0.0299999993</render_motion_blur_max_velocity>
 		<render_motion_blur_neat_silhouettes>1</render_motion_blur_neat_silhouettes>
@@ -282,7 +282,7 @@
 		<render_shaders_preload>0</render_shaders_preload>
 		<render_shadow_distance>100</render_shadow_distance>
 		<render_shadow_distance_scale>1</render_shadow_distance_scale>
-		<render_shadow_shafts>0</render_shadow_shafts>
+		<render_shadow_shafts>1</render_shadow_shafts>
 		<render_shadow_shafts_exposure>0.5</render_shadow_shafts_exposure>
 		<render_shadow_shafts_length>0.5</render_shadow_shafts_length>
 		<render_shadows>1</render_shadows>
@@ -291,7 +291,7 @@
 		<render_shadows_filter_noise>0</render_shadows_filter_noise>
 		<render_shadows_penumbra_mode>0</render_shadows_penumbra_mode>
 		<render_shadows_penumbra_noise>1</render_shadows_penumbra_noise>
-		<render_shadows_screen_space>0</render_shadows_screen_space>
+		<render_shadows_screen_space>1</render_shadows_screen_space>
 		<render_shadows_translucent_depth>0.25</render_shadows_translucent_depth>
 		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
 		<render_sharpen>1</render_sharpen>
@@ -451,11 +451,11 @@
 		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
 		<render_streaming_upadte_limit>1.5</render_streaming_upadte_limit>
 		<render_streaming_use_memory_limit>1</render_streaming_use_memory_limit>
-		<render_sun_shafts>0</render_sun_shafts>
+		<render_sun_shafts>1</render_sun_shafts>
 		<render_sun_shafts_attenuation>0.949999988</render_sun_shafts_attenuation>
 		<render_sun_shafts_color>1 1 1 1</render_sun_shafts_color>
 		<render_sun_shafts_length>1</render_sun_shafts_length>
-		<render_sun_shafts_scale>1.5</render_sun_shafts_scale>
+		<render_sun_shafts_scale>2.63470006</render_sun_shafts_scale>
 		<render_sun_shafts_threshold>0</render_sun_shafts_threshold>
 		<render_supersampling>1</render_supersampling>
 		<render_taa>1</render_taa>
@@ -538,29 +538,32 @@
 			<shadow_width>10</shadow_width>
 			<shadow_zfar>100</shadow_zfar>
 			<shadow_cascade_mode>0</shadow_cascade_mode>
-			<num_shadow_cascades>2</num_shadow_cascades>
+			<num_shadow_cascades>3</num_shadow_cascades>
 			<shadow_cascade_borders>0.0075000003 0.0500000007 0.200000003</shadow_cascade_borders>
 			<color_mode>1</color_mode>
-			<shadow_resolution>5</shadow_resolution>
+			<color_temperature>4444.3999</color_temperature>
+			<color_filter>0.729411781 0.988235354 0.960784376 1</color_filter>
+			<intensity>1.04444003</intensity>
+			<shadow_resolution>6</shadow_resolution>
 			<shadow_bias>1</shadow_bias>
 			<mode>1</mode>
-			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter_mode>2</shadow_filter_mode>
 			<shadow_filter>1</shadow_filter>
-			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra_mode>3</shadow_penumbra_mode>
 			<shadow_penumbra>0.150000006</shadow_penumbra>
 			<shadow_screen_space>1</shadow_screen_space>
-			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
-			<shadow_screen_space_num_steps>4</shadow_screen_space_num_steps>
+			<shadow_screen_space_num_rays>12</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>5</shadow_screen_space_num_steps>
 			<shadow_screen_space_noise_ray>0.349999994</shadow_screen_space_noise_ray>
 			<shadow_screen_space_noise_step>0.349999994</shadow_screen_space_noise_step>
 			<shadow_screen_space_step_size>2</shadow_screen_space_step_size>
 			<shadow_screen_space_threshold>3</shadow_screen_space_threshold>
 			<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 			<lens_flare_enabled>1</lens_flare_enabled>
-			<lens_flare_texture>core/textures/lens_flares_default.dds</lens_flare_texture>
-			<lens_flare_intensity>1</lens_flare_intensity>
-			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
-			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_texture>guid://9073faae5cb638004eef27ecfd0e7001583bfb5c</lens_flare_texture>
+			<lens_flare_intensity>0.539879978</lens_flare_intensity>
+			<lens_flare_occlusion_fade>0.68712002</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.453990012</lens_flare_occlusion_fade_border>
 			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
 			<lens_flare_use_light_color>1</lens_flare_use_light_color>
 			<lens_flare_billboards num="31">
@@ -615,7 +618,122 @@
 			<is_oblique_frustum>0</is_oblique_frustum>
 			<is_main>1</is_main>
 			<controlled>1</controlled>
-			<transform>1 -5.9604652e-08 0 0.0 0 0 1 0.0 -5.9604652e-08 -1 0 0.0 0 0 1.5 1.0</transform>
+			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 -0.92020202 11.366743 6.4761801 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1932381601" name="group">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.4909813 25.941357 5.6153398 1.0</transform>
+			<node type="NodeDummy" id="1326630977" name="intro_bridge1">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 -10.167784 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="1250007798" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1532678988" name="intro_bridge1_1">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 10.167786 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="850507418" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1781623038" name="intro_bridge1_2">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 30.443501 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="290319234" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="681571325" name="intro_bridge1_3">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 50.779072 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="1533589221" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1977256320" name="intro_bridge1_4">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 71.177322 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="951306560" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1724895801" name="intro_bridge1_5">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 91.512894 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="1247415431" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="487581576" name="intro_bridge1_6">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 111.7886 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="683869326" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
+			<node type="NodeDummy" id="1942772059" name="intro_bridge1_7">
+				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 132.12418 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="1127324710" name="intro_bridge1">
+					<mesh_name>guid://4466c77b2425169e0ec20d659c7cdf80c3534cdf</mesh_name>
+					<surface name="material" physics_friction="1" physics_restitution="1" material="383407a7916ee0dac1f13a71e800f11cf04859cb"/>
+					<surface name="bridgetoppiller1" physics_friction="1" physics_restitution="1" material="dfd0920df77c8c081a553fc7c49b7a7a210ac791"/>
+					<surface name="bridgeconcrete1" physics_friction="1" physics_restitution="1" material="346ae8392bf4744438cff2d3b0595a1697034a7d"/>
+					<surface name="bridgesidesupport" physics_friction="1" physics_restitution="1" material="c792acdbb123fc7e3a2af9c5b45f20607589d83f"/>
+					<surface name="roadmat1" physics_friction="1" physics_restitution="1" material="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7"/>
+					<surface name="bridgetop1" physics_friction="1" physics_restitution="1" material="1055984f0b2e29623cd619591b18b2e4ec3ae0f3"/>
+					<surface name="bridgetop2" physics_friction="1" physics_restitution="1" material="6613a421460c6f0c977b5efb5c0dc81ef1cc10e5"/>
+					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+				</node>
+			</node>
 		</node>
 	</editor>
 </world>

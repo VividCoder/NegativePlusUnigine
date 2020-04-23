@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>340346e01ab6ccbf6bf273128e59f74975a89814</guid>
+	<type>texture</type>
+	<hash>c4b3dbb4</hash>
+	<runtimes>
+		<runtime id="340346e01ab6ccbf6bf273128e59f74975a89814" name="MakeshiftMetalWallClean_basecolor.png" link="0"/>
+		<runtime id="3c8aa4639aa3be66ec92428d062582883da0c447" name="MakeshiftMetalWallClean_basecolor.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

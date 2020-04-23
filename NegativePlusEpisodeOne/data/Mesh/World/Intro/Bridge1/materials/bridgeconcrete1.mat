@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="bridgeconcrete1" guid="346ae8392bf4744438cff2d3b0595a1697034a7d" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<texture name="diffuse">guid://9b30707e6704ddc51047b4603f515c3fe078bc92</texture>
+	<texture name="specular">guid://65d14835d801bc104303e02f138b0fc22cb80c39</texture>
+	<texture name="normal">guid://7ce995503a99686f88ac7b02e965fe7993d21584</texture>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

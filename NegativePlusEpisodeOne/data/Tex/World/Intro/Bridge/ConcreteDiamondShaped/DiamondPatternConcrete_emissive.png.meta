@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>03b447eb47313c4e5b9417552b8d00b0b20e1c4f</guid>
+	<type>texture</type>
+	<hash>9ca652a2</hash>
+	<runtimes>
+		<runtime id="03b447eb47313c4e5b9417552b8d00b0b20e1c4f" name="DiamondPatternConcrete_emissive.png" link="0"/>
+		<runtime id="aa24dd622f153d5914a586e468d9a4f362f025b6" name="DiamondPatternConcrete_emissive.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

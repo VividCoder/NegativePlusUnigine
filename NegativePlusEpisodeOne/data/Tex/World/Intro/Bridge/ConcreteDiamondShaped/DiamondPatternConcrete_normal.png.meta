@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>c48288b192cf6a5cb854020b44966fee96e97675</guid>
+	<type>texture</type>
+	<hash>18850738</hash>
+	<runtimes>
+		<runtime id="c48288b192cf6a5cb854020b44966fee96e97675" name="DiamondPatternConcrete_normal.png" link="0"/>
+		<runtime id="7ce995503a99686f88ac7b02e965fe7993d21584" name="DiamondPatternConcrete_normal.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

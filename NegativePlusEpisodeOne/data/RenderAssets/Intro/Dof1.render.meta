@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>4220a03b3db1985e025724259adf87405eec519f</guid>
+	<type>render_settings</type>
+	<hash>21441cc8</hash>
+	<runtimes>
+		<runtime id="4220a03b3db1985e025724259adf87405eec519f" name="Dof1.render" link="0"/>
+	</runtimes>
+</asset>

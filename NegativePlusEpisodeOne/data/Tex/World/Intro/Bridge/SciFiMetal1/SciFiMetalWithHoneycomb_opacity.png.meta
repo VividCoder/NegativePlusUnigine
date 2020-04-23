@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>52b6a8f0b675278f0b1befa25526aa99a04f9324</guid>
+	<type>texture</type>
+	<hash>d80bd6da</hash>
+	<runtimes>
+		<runtime id="52b6a8f0b675278f0b1befa25526aa99a04f9324" name="SciFiMetalWithHoneycomb_opacity.png" link="0"/>
+		<runtime id="739dc43320993bf6cd2102dd15d526980a7a7917" name="SciFiMetalWithHoneycomb_opacity.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

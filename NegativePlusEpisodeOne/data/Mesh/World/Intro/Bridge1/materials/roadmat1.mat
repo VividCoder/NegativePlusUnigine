@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="roadmat1" guid="6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7" base_material="mesh_base">
+	<options two_sided="0"/>
+	<state name="workflow">1</state>
+	<texture name="diffuse">guid://c244068fd87742a240dbe1992b6d5e2436031333</texture>
+	<texture name="specular">guid://056f0c88fb58c647bbe04efadcb49211a776243c</texture>
+	<texture name="normal">guid://2157b44079f49a9ffcfd2772cd236029238c2b74</texture>
+	<parameter name="diffuse_color" expression="0">0.866666734 0.866666734 0.866666734 1</parameter>
+	<parameter name="specular_color" expression="0">0.196078449 0.639215708 0.611764729 1</parameter>
+	<parameter name="gloss" expression="0">0.0909100026</parameter>
+	<parameter name="normal_scale" expression="0">1.07954001</parameter>
+</material>

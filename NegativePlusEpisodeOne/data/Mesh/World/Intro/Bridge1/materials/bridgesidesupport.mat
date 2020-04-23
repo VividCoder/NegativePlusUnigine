@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="bridgesidesupport" guid="c792acdbb123fc7e3a2af9c5b45f20607589d83f" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<texture name="diffuse">guid://41923b6aa1e233c1a3637a2c1975af9b9183a03e</texture>
+	<texture name="specular">guid://8b6125e4b8bab7f3f9f01cb666d6ec9d32f48558</texture>
+	<texture name="normal">guid://58530202fda4d9790945348468c336139dbf4456</texture>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

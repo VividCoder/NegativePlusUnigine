@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a93872a5841783c02ddf241f002f22f2706225a9</guid>
+	<type>fbx</type>
+	<hash>7c40a99c</hash>
+	<runtimes>
+		<runtime id="a93872a5841783c02ddf241f002f22f2706225a9" name="intro_bridge1.fbx" link="0"/>
+		<runtime id="ab2ee4d8f616a2579ac2dbca32a098a1b31fd98c" name="intro_bridge1.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">387007</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="4466c77b2425169e0ec20d659c7cdf80c3534cdf" name="intro_bridge1.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">a101ea1b</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">1</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="bool" name="joints_reorientation">1</parameter>
+		<parameter type="bool" name="import_lights">0</parameter>
+		<parameter type="bool" name="import_cameras">0</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">30</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="import_materials_mode">0</parameter>
+		<parameter type="int" name="workflow">1</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="bool" name="combine_by_lods">0</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods"/>
+		<parameter type="string" name="animations"/>
+		<parameter type="bool" name="need_create_uv">1</parameter>
+		<parameter type="int" name="uv_resolution">2048</parameter>
+		<parameter type="int" name="uv_padding">0</parameter>
+		<parameter type="int" name="uv_channel">1</parameter>
+		<parameter type="bool" name="uv_high_quality">1</parameter>
+		<parameter type="string" name="material_guids">material,383407a7916ee0dac1f13a71e800f11cf04859cb,bridgeconcrete1,346ae8392bf4744438cff2d3b0595a1697034a7d,bridgesidesupport,c792acdbb123fc7e3a2af9c5b45f20607589d83f,bridgetoppiller1,dfd0920df77c8c081a553fc7c49b7a7a210ac791,bridgetop1,1055984f0b2e29623cd619591b18b2e4ec3ae0f3,bridgetop2,6613a421460c6f0c977b5efb5c0dc81ef1cc10e5,roadmat1,6d139e0305ae2b862bb48d2d2e3f0ca8f11587e7</parameter>
+	</parameters>
+</asset>

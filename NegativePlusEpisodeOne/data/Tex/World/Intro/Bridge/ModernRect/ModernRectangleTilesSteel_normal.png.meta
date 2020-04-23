@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>605ebfcb9c7c92ae2431ba351253861089a7222f</guid>
+	<type>texture</type>
+	<hash>49bd429d</hash>
+	<runtimes>
+		<runtime id="605ebfcb9c7c92ae2431ba351253861089a7222f" name="ModernRectangleTilesSteel_normal.png" link="0"/>
+		<runtime id="282169c2ea369e3957d0b24441b318d35b064816" name="ModernRectangleTilesSteel_normal.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

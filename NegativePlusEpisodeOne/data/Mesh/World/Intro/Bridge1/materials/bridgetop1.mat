@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="bridgetop1" guid="1055984f0b2e29623cd619591b18b2e4ec3ae0f3" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<texture name="diffuse">guid://556d43cabab7e0a1eafe818c39a54f7bca81fe9e</texture>
+	<texture name="specular">guid://d10cd144651aabd3c6dabf1626d36b7df13436b8</texture>
+	<texture name="normal">guid://428b3e622fee2a59b3178fe4c53a19f3ef7416b6</texture>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

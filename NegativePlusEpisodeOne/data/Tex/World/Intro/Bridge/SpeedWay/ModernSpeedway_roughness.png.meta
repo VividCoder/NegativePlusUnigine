@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>88b7448ee4ec029525ff72f02ba3698fdec149a2</guid>
+	<type>texture</type>
+	<hash>02a175b2</hash>
+	<runtimes>
+		<runtime id="88b7448ee4ec029525ff72f02ba3698fdec149a2" name="ModernSpeedway_roughness.png" link="0"/>
+		<runtime id="c0683c9974cffd24c25f2633bf7735f6ba02b4dd" name="ModernSpeedway_roughness.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

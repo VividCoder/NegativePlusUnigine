@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>dbc7bae13a0216cc3d8b63bba38285de9e1433a5</guid>
+	<type>texture</type>
+	<hash>16f8db7</hash>
+	<runtimes>
+		<runtime id="dbc7bae13a0216cc3d8b63bba38285de9e1433a5" name="ModernSpeedway_height.png" link="0"/>
+		<runtime id="5b2650c0044d8d1f22a077f2a50176a9c94a4ff4" name="ModernSpeedway_height.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">R16</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

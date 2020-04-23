@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>368045b7eb9867aa0c13f301875db06cab07f0db</guid>
+	<type>texture</type>
+	<hash>ca1eb3e6</hash>
+	<runtimes>
+		<runtime id="368045b7eb9867aa0c13f301875db06cab07f0db" name="DiamondPatternConcrete_basecolor.png" link="0"/>
+		<runtime id="9b30707e6704ddc51047b4603f515c3fe078bc92" name="DiamondPatternConcrete_basecolor.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>
