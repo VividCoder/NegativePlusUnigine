@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d894e8f450a3ffc3a6b5a246eb2614ed64d97168</guid>
+	<type>texture</type>
+	<hash>33c561b9</hash>
+	<runtimes>
+		<runtime id="d894e8f450a3ffc3a6b5a246eb2614ed64d97168" name="DystopianWasteland_albedo.png" link="0"/>
+		<runtime id="f4b94aaec89712356488fe10bc2e3a2fe48da1c2" name="DystopianWasteland_albedo.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

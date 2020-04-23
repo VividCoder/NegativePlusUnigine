@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>11a13f428e4575b9a1eea3c488f15c535f94b596</guid>
+	<type>material</type>
+	<hash>6de191c2</hash>
+	<runtimes>
+		<runtime id="11a13f428e4575b9a1eea3c488f15c535f94b596" name="windows" link="0"/>
+	</runtimes>
+</asset>

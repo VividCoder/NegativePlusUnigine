@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="headlights_cover" guid="96598752c1e77e89acfbf6547793eda3748bf6a6" base_material="mesh_base">
+	<blend src="one" dest="one"/>
+	<options transparent="2"/>
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.211764723 0.517647088 0.196078449 1</parameter>
+</material>

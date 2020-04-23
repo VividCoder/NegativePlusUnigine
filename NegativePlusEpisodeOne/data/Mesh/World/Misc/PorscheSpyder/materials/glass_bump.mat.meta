@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>578c7278d1e493775e6ada6aef3c46c14f88712c</guid>
+	<type>material</type>
+	<hash>ca14b5aa</hash>
+	<runtimes>
+		<runtime id="578c7278d1e493775e6ada6aef3c46c14f88712c" name="glass_bump" link="0"/>
+	</runtimes>
+</asset>

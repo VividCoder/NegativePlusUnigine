@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="windows" guid="11a13f428e4575b9a1eea3c488f15c535f94b596" base_material="mesh_base">
+	<blend src="one" dest="one"/>
+	<options transparent="2"/>
+	<state name="workflow">1</state>
+	<state name="translucent_map">1</state>
+	<parameter name="diffuse_color" expression="0">0.666666687 1 1 1</parameter>
+	<parameter name="gloss" expression="0">0.148760006</parameter>
+	<parameter name="transparent" expression="0">0.495900005</parameter>
+	<parameter name="transparent_pow" expression="0">0.567499995</parameter>
+	<parameter name="opacity_fresnel" expression="0">0.192839995</parameter>
+</material>

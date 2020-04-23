@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9a9151bcf7bd01eb4fbeae4e482ee15595e542b0</guid>
+	<type>texture</type>
+	<hash>26e9b366</hash>
+	<runtimes>
+		<runtime id="9a9151bcf7bd01eb4fbeae4e482ee15595e542b0" name="DystopianWasteland_specular.png" link="0"/>
+		<runtime id="b4d5764f06206f625907a7592630e8e467f99ef3" name="DystopianWasteland_specular.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

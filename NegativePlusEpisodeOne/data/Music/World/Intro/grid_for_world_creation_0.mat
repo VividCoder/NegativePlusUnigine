@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="grid_for_world_creation_0" guid="9afb96dc14cd448bc5bdd06e42dc5cf5829649d0" parent="ead31ab036c7eb329af97a68a8e83d6db943a873" base_material="mesh_base">
+	<texture name="albedo">guid://f4b94aaec89712356488fe10bc2e3a2fe48da1c2</texture>
+	<texture name="shading">guid://b4d5764f06206f625907a7592630e8e467f99ef3</texture>
+	<texture name="normal">guid://24766ff7362e0cea98c4d741718ac7accbd59f1b</texture>
+</material>

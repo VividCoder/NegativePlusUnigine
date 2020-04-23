@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>283e7784d71d9d134c607f56ff77aebdf59720f8</guid>
+	<type>texture</type>
+	<hash>eb7a58bd</hash>
+	<runtimes>
+		<runtime id="283e7784d71d9d134c607f56ff77aebdf59720f8" name="DystopianWasteland_normal.png" link="0"/>
+		<runtime id="24766ff7362e0cea98c4d741718ac7accbd59f1b" name="DystopianWasteland_normal.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="tire_rubber" guid="9f5bf65606a6b9bd245caff83278b2f75dfd73ea" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.211764723 0.211764723 0.211764723 1</parameter>
+</material>

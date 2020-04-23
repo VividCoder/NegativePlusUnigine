@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>bd2422e1a5235eccf8ec0bbb125b0ddecd431ba5</guid>
+	<type>fbx</type>
+	<hash>ff74899c</hash>
+	<runtimes>
+		<runtime id="bd2422e1a5235eccf8ec0bbb125b0ddecd431ba5" name="EditPorsche1.dae" link="0"/>
+		<runtime id="ef59e2c359642946b6ccefed9a94906861abb8a7" name="EditPorsche1.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">2cc82ea2</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="a608dddadd9113713094f61c16ca9acb3c38b1ae" name="combined.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">242dd8c5</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">1</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">1</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">0</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="bool" name="joints_reorientation">1</parameter>
+		<parameter type="bool" name="import_lights">0</parameter>
+		<parameter type="bool" name="import_cameras">0</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">0.600000024</parameter>
+		<parameter type="float" name="fps">30</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="import_materials_mode">0</parameter>
+		<parameter type="int" name="workflow">1</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="bool" name="combine_by_lods">0</parameter>
+		<parameter type="int" name="index_max_count_lods">1</parameter>
+		<parameter type="string" name="lods"/>
+		<parameter type="string" name="animations"/>
+		<parameter type="bool" name="need_create_uv">0</parameter>
+		<parameter type="int" name="uv_resolution">2048</parameter>
+		<parameter type="int" name="uv_padding">0</parameter>
+		<parameter type="int" name="uv_channel">1</parameter>
+		<parameter type="bool" name="uv_high_quality">1</parameter>
+		<parameter type="string" name="material_guids">black plastic,71a059469cfb5fedbb9040688693a8a75f700dda,green trim,5919ad10e4411d2f9ef528c2f8115139aa3dc944,chrome_matte,4545a0aa2f95d8017334516ce2141ddba5bcb97e,glossy black,c863de94f0a438e3719b48e6fed34b0db155f108,carbon fiber,87f3c54e890b0c55cd3571b00da1d94fa2f37662,alacantra,ceed0758e6fd62d793ada24ac423ad215172e40c,logo,2ad54b32bd1bb0e92614c534b423af03b1450886,chrome,9d5acb5c430def0b897578eed4d2eb7513628650,tire_rubber,9f5bf65606a6b9bd245caff83278b2f75dfd73ea,brake pad,2f840ea0b197717fadbf50d22ddbba094797fbd4,brake disc,3de4caba55fd5ad16ae4d5fcbcec392b8867fc8e,black plastic.001,4734f524e44fbe332d3eedf6d8770cddeb2fa898,chrome.001,ad9c0c5e6f7708251e561b40bee9d59ff5f32672,car paint_grey,a232e2e8e814e9271f33545a827017f1dc33309c,windows,11a13f428e4575b9a1eea3c488f15c535f94b596,grill mask,4f807bec9161465b3f4ac7fec6b84f45811d77e0,chrome_fuel cap,ff6b2766bf88978d2f85d388a0cae1473c6dadfa,light_blocker,47e1a430d2ff69cf0cc6cce21a3b66d9479ea264,red glass,826bc8ca69a2a1a12ed04e8c47fab87bcdae539e,light 1,ad9f7fb412fe278352e0270690f352ad9ea01428,glass,b0f4676eb3cc07f56fe3f8d00c7575ef2fba2a82,glass_bump,578c7278d1e493775e6ada6aef3c46c14f88712c,headlights_cover,96598752c1e77e89acfbf6547793eda3748bf6a6,glass_green,8b48207c382601ab64ba2b0ebb68b7155abf9d70</parameter>
+	</parameters>
+</asset>

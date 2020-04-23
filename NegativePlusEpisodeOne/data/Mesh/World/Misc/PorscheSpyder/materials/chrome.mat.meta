@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9d5acb5c430def0b897578eed4d2eb7513628650</guid>
+	<type>material</type>
+	<hash>b67566d1</hash>
+	<runtimes>
+		<runtime id="9d5acb5c430def0b897578eed4d2eb7513628650" name="chrome" link="0"/>
+	</runtimes>
+</asset>

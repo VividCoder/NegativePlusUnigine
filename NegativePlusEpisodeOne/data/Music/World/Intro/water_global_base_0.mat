@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="water_global_base_0" guid="f1afa5f8b3b330f78a29d9ea353c404138711cac" base_material="water_global_base">
+	<state name="geometry_contraction">0</state>
+	<state name="underwater_dof">1</state>
+</material>

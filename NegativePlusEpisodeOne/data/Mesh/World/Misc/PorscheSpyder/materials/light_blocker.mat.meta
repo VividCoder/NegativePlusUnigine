@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>47e1a430d2ff69cf0cc6cce21a3b66d9479ea264</guid>
+	<type>material</type>
+	<hash>9e809fc</hash>
+	<runtimes>
+		<runtime id="47e1a430d2ff69cf0cc6cce21a3b66d9479ea264" name="light_blocker" link="0"/>
+	</runtimes>
+</asset>

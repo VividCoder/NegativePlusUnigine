@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="car paint_grey" guid="a232e2e8e814e9271f33545a827017f1dc33309c" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<state name="ao_map">1</state>
+	<state name="procedural_effects">1</state>
+	<state name="material_sssss">1</state>
+	<parameter name="specular_color" expression="0">0.666666687 0.666666687 0.666666687 1</parameter>
+	<parameter name="gloss" expression="0">0.358130008</parameter>
+	<parameter name="microfiber" expression="0">0.093659997</parameter>
+	<parameter name="normal_scale" expression="0">1.01927996</parameter>
+</material>

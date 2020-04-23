@@ -123,7 +123,7 @@
 		<render_bloom_passes>7</render_bloom_passes>
 		<render_bloom_power>0.119800001</render_bloom_power>
 		<render_bloom_resolution>2</render_bloom_resolution>
-		<render_bloom_scale>1.19760001</render_bloom_scale>
+		<render_bloom_scale>0.830200016</render_bloom_scale>
 		<render_border>0 0</render_border>
 		<render_budget>0.0160000008</render_budget>
 		<render_camera_effects_temporal_filtering>0</render_camera_effects_temporal_filtering>
@@ -150,11 +150,11 @@
 		<render_clouds_soft_intersection>100</render_clouds_soft_intersection>
 		<render_clouds_transparent_order>1</render_clouds_transparent_order>
 		<render_cross>1</render_cross>
-		<render_cross_angle>45</render_cross_angle>
+		<render_cross_angle>10</render_cross_angle>
 		<render_cross_color>1 1 1 1</render_cross_color>
-		<render_cross_length>0.200000003</render_cross_length>
-		<render_cross_scale>2.69460011</render_cross_scale>
-		<render_cross_shafts>6</render_cross_shafts>
+		<render_cross_length>0.158500001</render_cross_length>
+		<render_cross_scale>1.47169995</render_cross_scale>
+		<render_cross_shafts>2</render_cross_shafts>
 		<render_cross_threshold>0</render_cross_threshold>
 		<render_debug>1</render_debug>
 		<render_decal_distance>1e+09</render_decal_distance>
@@ -163,16 +163,16 @@
 		<render_dirt_scale>0.5</render_dirt_scale>
 		<render_distance_scale>1</render_distance_scale>
 		<render_dof>1</render_dof>
-		<render_dof_blur>0.285699993</render_dof_blur>
+		<render_dof_blur>0.363599986</render_dof_blur>
 		<render_dof_bokeh_mode>0</render_dof_bokeh_mode>
-		<render_dof_chromatic_aberration>2.76189995</render_dof_chromatic_aberration>
-		<render_dof_far_distance>10</render_dof_far_distance>
-		<render_dof_far_focal_offset>2.75449991</render_dof_far_focal_offset>
-		<render_dof_focal_distance>4.97179985</render_dof_focal_distance>
+		<render_dof_chromatic_aberration>1.78180003</render_dof_chromatic_aberration>
+		<render_dof_far_distance>7.05660009</render_dof_far_distance>
+		<render_dof_far_focal_offset>7.05660009</render_dof_far_focal_offset>
+		<render_dof_focal_distance>4.14550018</render_dof_focal_distance>
 		<render_dof_focus_improvement>1</render_dof_focus_improvement>
 		<render_dof_increased_accuracy>1</render_dof_increased_accuracy>
-		<render_dof_near_distance>10</render_dof_near_distance>
-		<render_dof_near_focal_offset>0</render_dof_near_focal_offset>
+		<render_dof_near_distance>1.58490002</render_dof_near_distance>
+		<render_dof_near_focal_offset>4.03770018</render_dof_near_focal_offset>
 		<render_dof_quality>3</render_dof_quality>
 		<render_dof_resolution>2</render_dof_resolution>
 		<render_environment>1</render_environment>
@@ -528,7 +528,7 @@
 			<vertex type="float" num_vertex="121" offset="32" size="4">0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837</vertex>
 			<vertex type="float" num_vertex="121" offset="48" size="4">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vertex>
 			<indices num_indices="600">8 7 19 19 7 18 9 8 20 20 8 19 19 31 20 31 19 30 19 18 30 30 18 29 10 9 21 21 9 20 21 20 32 32 20 31 96 87 95 97 96 108 108 96 107 96 95 107 107 95 106 120 108 119 108 107 119 119 107 118 107 106 118 118 106 117 77 79 91 91 79 90 79 78 90 91 90 102 102 90 101 90 89 101 90 78 89 78 81 89 102 101 113 113 101 112 101 100 112 101 89 100 1 0 12 12 0 11 6 11 0 2 1 13 13 1 12 13 12 24 24 12 23 12 11 23 23 11 22 11 17 22 11 6 17 3 2 14 14 2 13 13 25 14 25 13 24 25 24 33 33 24 35 24 23 35 33 35 44 44 35 45 35 34 45 35 23 34 23 22 34 45 55 44 55 45 56 46 56 45 45 34 46 5 4 16 16 4 15 4 10 15 5 17 6 17 5 16 17 16 28 28 16 27 16 15 27 27 15 26 15 21 26 15 10 21 30 29 41 41 29 43 31 30 42 42 30 41 41 52 42 52 41 53 43 53 41 53 43 54 51 42 52 51 52 62 62 52 63 52 53 63 75 65 76 75 86 74 86 75 85 75 76 85 85 76 87 83 86 98 98 86 97 83 74 86 86 85 97 97 85 96 85 87 96 89 81 88 89 88 100 100 88 99 112 100 111 100 99 111 111 99 110 105 110 99 110 105 116 104 116 105 116 104 115 104 103 115 104 92 103 115 103 114 103 109 114 92 98 103 103 98 109 92 83 98 114 109 120 109 108 120 98 97 109 109 97 108 63 53 64 53 54 64 62 63 73 73 63 74 64 74 63 74 64 75 64 65 75 64 54 65 72 62 73 72 73 84 84 73 83 73 74 83 56 46 57 46 47 57 56 66 55 66 56 67 57 67 56 67 57 68 57 58 68 57 47 58 48 58 47 67 77 66 77 67 79 68 79 67 22 17 28 34 22 37 22 28 37 37 28 36 28 27 36 34 37 46 46 37 47 36 47 37 47 36 48 38 48 36 36 27 38 26 21 32 27 26 38 38 26 40 26 32 40 40 32 39 32 31 39 48 38 49 38 40 49 49 40 50 40 39 50 50 39 51 39 42 51 39 31 42 82 72 84 80 82 94 94 82 93 82 84 93 93 84 92 83 92 84 81 80 88 88 80 94 94 99 88 99 94 105 93 105 94 105 93 104 93 92 104 58 48 59 49 59 48 68 58 69 58 59 69 69 59 70 59 60 70 59 49 60 50 60 49 79 68 78 68 69 78 78 69 81 69 70 81 60 50 61 50 51 61 70 60 71 60 61 71 71 61 72 61 62 72 61 51 62 81 70 80 70 71 80 80 71 82 71 72 82</indices>
-			<surface name="grid_for_world_creation" physics_friction="1" physics_restitution="1" material="ead31ab036c7eb329af97a68a8e83d6db943a873"/>
+			<surface name="grid_for_world_creation" physics_friction="1" physics_restitution="1" material="9afb96dc14cd448bc5bdd06e42dc5cf5829649d0"/>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 		</node>
 		<node type="LightWorld" id="824505625" name="sun">
@@ -619,9 +619,34 @@
 			<is_main>1</is_main>
 			<controlled>1</controlled>
 			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 -0.92020202 11.366743 6.4761801 1.0</transform>
+			<node type="SoundSource" id="697913644" name="SoundSource">
+				<sample_name>guid://9ec4e88175ab27ec4e14025b674653feb4466b45</sample_name>
+				<sample_stream>1</sample_stream>
+				<source_mask>0x1</source_mask>
+				<reverb_mask>0x1</reverb_mask>
+				<loop>0</loop>
+				<play_on_enable>1</play_on_enable>
+				<restart_on_enable>1</restart_on_enable>
+				<occlusion>0</occlusion>
+				<occlusion_mask>-1</occlusion_mask>
+				<adaptation>0.25</adaptation>
+				<time>0</time>
+				<pitch>1</pitch>
+				<gain>1</gain>
+				<room_rolloff>0</room_rolloff>
+				<air_absorption>0</air_absorption>
+				<min_distance>0</min_distance>
+				<max_distance>10</max_distance>
+				<cone_inner_angle>180</cone_inner_angle>
+				<cone_outer_angle>180</cone_outer_angle>
+				<cone_outer_gain>0</cone_outer_gain>
+				<cone_outer_gain_hf>1</cone_outer_gain_hf>
+				<playing>0</playing>
+				<transform>0.99999994 0 -3.5762784e-07 0.0 -3.5762784e-07 0 -0.99999994 0.0 0 0.99999994 0 0.0 -1.2668531 2.6921406 -4.9803905 1.0</transform>
+			</node>
 		</node>
 		<node type="NodeDummy" id="1932381601" name="group">
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -2.4909813 25.941357 5.6153398 1.0</transform>
+			<transform>3.4748735 0 0 0.0 0 3.4748735 0 0.0 0 0 3.4748733 0.0 -2.4909813 25.941357 5.6153398 1.0</transform>
 			<node type="NodeDummy" id="1326630977" name="intro_bridge1">
 				<transform>0.99999988 2.6469767e-22 -3.8213697e-15 0.0 6.937706e-23 0.99999988 8.7422762e-08 0.0 3.8213697e-15 -8.7422762e-08 0.99999994 0.0 0 -10.167784 0 1.0</transform>
 				<node type="ObjectMeshStatic" id="1250007798" name="intro_bridge1">
@@ -734,6 +759,40 @@
 					<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
 				</node>
 			</node>
+		</node>
+		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
+			<water_time>1729.77417</water_time>
+			<octaves_pans>0.298059344 0 -0.298059344 0 0.894188643 0</octaves_pans>
+			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1003671400" name="combined">
+			<mesh_name>guid://a608dddadd9113713094f61c16ca9acb3c38b1ae</mesh_name>
+			<surface name="black plastic" physics_friction="1" physics_restitution="1" material="71a059469cfb5fedbb9040688693a8a75f700dda"/>
+			<surface name="glossy black" physics_friction="1" physics_restitution="1" material="c863de94f0a438e3719b48e6fed34b0db155f108"/>
+			<surface name="green trim" physics_friction="1" physics_restitution="1" material="5919ad10e4411d2f9ef528c2f8115139aa3dc944"/>
+			<surface name="chrome_matte" physics_friction="1" physics_restitution="1" material="4545a0aa2f95d8017334516ce2141ddba5bcb97e"/>
+			<surface name="logo" physics_friction="1" physics_restitution="1" material="2ad54b32bd1bb0e92614c534b423af03b1450886"/>
+			<surface name="carbon fiber" physics_friction="1" physics_restitution="1" material="87f3c54e890b0c55cd3571b00da1d94fa2f37662"/>
+			<surface name="alacantra" physics_friction="1" physics_restitution="1" material="ceed0758e6fd62d793ada24ac423ad215172e40c"/>
+			<surface name="chrome" physics_friction="1" physics_restitution="1" material="9d5acb5c430def0b897578eed4d2eb7513628650"/>
+			<surface name="tire_rubber" physics_friction="1" physics_restitution="1" material="9f5bf65606a6b9bd245caff83278b2f75dfd73ea"/>
+			<surface name="brake pad" physics_friction="1" physics_restitution="1" material="2f840ea0b197717fadbf50d22ddbba094797fbd4"/>
+			<surface name="brake disc" physics_friction="1" physics_restitution="1" material="3de4caba55fd5ad16ae4d5fcbcec392b8867fc8e"/>
+			<surface name="black plastic.001" physics_friction="1" physics_restitution="1" material="4734f524e44fbe332d3eedf6d8770cddeb2fa898"/>
+			<surface name="chrome.001" physics_friction="1" physics_restitution="1" material="ad9c0c5e6f7708251e561b40bee9d59ff5f32672"/>
+			<surface name="car paint_grey" physics_friction="1" physics_restitution="1" material="a232e2e8e814e9271f33545a827017f1dc33309c"/>
+			<surface name="windows" physics_friction="1" physics_restitution="1" material="11a13f428e4575b9a1eea3c488f15c535f94b596"/>
+			<surface name="grill mask" physics_friction="1" physics_restitution="1" material="4f807bec9161465b3f4ac7fec6b84f45811d77e0"/>
+			<surface name="chrome_fuel cap" physics_friction="1" physics_restitution="1" material="ff6b2766bf88978d2f85d388a0cae1473c6dadfa"/>
+			<surface name="light_blocker" physics_friction="1" physics_restitution="1" material="47e1a430d2ff69cf0cc6cce21a3b66d9479ea264"/>
+			<surface name="red glass" physics_friction="1" physics_restitution="1" material="826bc8ca69a2a1a12ed04e8c47fab87bcdae539e"/>
+			<surface name="light 1" physics_friction="1" physics_restitution="1" material="ad9f7fb412fe278352e0270690f352ad9ea01428"/>
+			<surface name="glass" physics_friction="1" physics_restitution="1" material="b0f4676eb3cc07f56fe3f8d00c7575ef2fba2a82"/>
+			<surface name="glass_bump" physics_friction="1" physics_restitution="1" material="578c7278d1e493775e6ada6aef3c46c14f88712c"/>
+			<surface name="headlights_cover" physics_friction="1" physics_restitution="1" material="96598752c1e77e89acfbf6547793eda3748bf6a6"/>
+			<surface name="glass_green" physics_friction="1" physics_restitution="1" material="8b48207c382601ab64ba2b0ebb68b7155abf9d70"/>
+			<transform>0.90455896 0.42634836 0 0.0 -0.42634833 0.9045589 0 0.0 0 0 0.99999988 0.0 -1.3739476 33.361839 6.3408828 1.0</transform>
 		</node>
 	</editor>
 </world>

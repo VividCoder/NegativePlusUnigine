@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>11d125a7265d66da71720871419f671c265857cb</guid>
+	<type>texture</type>
+	<hash>49bdad72</hash>
+	<runtimes>
+		<runtime id="11d125a7265d66da71720871419f671c265857cb" name="DystopianWasteland_height.png" link="0"/>
+		<runtime id="12057639df61aa441edfb0d332da0016afafb87d" name="DystopianWasteland_height.dds" link="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">R16</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

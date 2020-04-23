@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>96598752c1e77e89acfbf6547793eda3748bf6a6</guid>
+	<type>material</type>
+	<hash>6eb84251</hash>
+	<runtimes>
+		<runtime id="96598752c1e77e89acfbf6547793eda3748bf6a6" name="headlights_cover" link="0"/>
+	</runtimes>
+</asset>

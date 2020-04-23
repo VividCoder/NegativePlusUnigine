@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="glass" guid="b0f4676eb3cc07f56fe3f8d00c7575ef2fba2a82" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

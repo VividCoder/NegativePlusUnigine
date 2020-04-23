@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="chrome.001" guid="ad9c0c5e6f7708251e561b40bee9d59ff5f32672" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

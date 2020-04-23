@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="glass_bump" guid="578c7278d1e493775e6ada6aef3c46c14f88712c" base_material="mesh_base">
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.800000012 0.800000012 0.800000012 1</parameter>
+</material>

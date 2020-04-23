@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>9ec4e88175ab27ec4e14025b674653feb4466b45</guid>
+	<type>sound</type>
+	<hash>4da1f4e9</hash>
+	<runtimes>
+		<runtime id="9ec4e88175ab27ec4e14025b674653feb4466b45" name="IntroSong1.mp3" link="0"/>
+	</runtimes>
+</asset>

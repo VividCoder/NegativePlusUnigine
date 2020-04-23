@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a232e2e8e814e9271f33545a827017f1dc33309c</guid>
+	<type>material</type>
+	<hash>7beb6d3e</hash>
+	<runtimes>
+		<runtime id="a232e2e8e814e9271f33545a827017f1dc33309c" name="car paint_grey" link="0"/>
+	</runtimes>
+</asset>
