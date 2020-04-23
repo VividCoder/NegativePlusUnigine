@@ -533,27 +533,26 @@
 		</node>
 		<node type="LightWorld" id="824505625" name="sun">
 			<scattering>1</scattering>
-			<disable_angle>100</disable_angle>
+			<disable_angle>174.356995</disable_angle>
 			<shadow_height>10</shadow_height>
 			<shadow_width>10</shadow_width>
 			<shadow_zfar>100</shadow_zfar>
 			<shadow_cascade_mode>0</shadow_cascade_mode>
 			<num_shadow_cascades>3</num_shadow_cascades>
-			<shadow_cascade_borders>0.0075000003 0.0500000007 0.200000003</shadow_cascade_borders>
+			<shadow_cascade_borders>0.0075000003 0.0623220019 0.200000003</shadow_cascade_borders>
 			<color_mode>1</color_mode>
-			<color_temperature>4444.3999</color_temperature>
-			<color_filter>0.729411781 0.988235354 0.960784376 1</color_filter>
-			<intensity>1.04444003</intensity>
-			<shadow_resolution>6</shadow_resolution>
+			<color_temperature>6645.6001</color_temperature>
+			<intensity>0.827579975</intensity>
+			<shadow_resolution>5</shadow_resolution>
 			<shadow_bias>1</shadow_bias>
-			<mode>1</mode>
+			<mode>0</mode>
 			<shadow_filter_mode>2</shadow_filter_mode>
 			<shadow_filter>1</shadow_filter>
-			<shadow_penumbra_mode>3</shadow_penumbra_mode>
-			<shadow_penumbra>0.150000006</shadow_penumbra>
+			<shadow_penumbra_mode>1</shadow_penumbra_mode>
+			<shadow_penumbra>0.311619997</shadow_penumbra>
 			<shadow_screen_space>1</shadow_screen_space>
 			<shadow_screen_space_num_rays>12</shadow_screen_space_num_rays>
-			<shadow_screen_space_num_steps>5</shadow_screen_space_num_steps>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
 			<shadow_screen_space_noise_ray>0.349999994</shadow_screen_space_noise_ray>
 			<shadow_screen_space_noise_step>0.349999994</shadow_screen_space_noise_step>
 			<shadow_screen_space_step_size>2</shadow_screen_space_step_size>
@@ -761,8 +760,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>1729.77417</water_time>
-			<octaves_pans>0.298059344 0 -0.298059344 0 0.894188643 0</octaves_pans>
+			<water_time>2289.82031</water_time>
+			<octaves_pans>0.898544371 0 -0.898544371 0 0.695657253 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -793,6 +792,16 @@
 			<surface name="headlights_cover" physics_friction="1" physics_restitution="1" material="96598752c1e77e89acfbf6547793eda3748bf6a6"/>
 			<surface name="glass_green" physics_friction="1" physics_restitution="1" material="8b48207c382601ab64ba2b0ebb68b7155abf9d70"/>
 			<transform>0.90455896 0.42634836 0 0.0 -0.42634833 0.9045589 0 0.0 0 0 0.99999988 0.0 -1.3739476 33.361839 6.3408828 1.0</transform>
+		</node>
+		<node type="ObjectSky" id="1708982652" name="ObjectSky">
+			<surface name="sphere" physics_friction="1" physics_restitution="1" material="8a62967f7fc99c1d8b76398a5cb395fd662d9eac"/>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
+		</node>
+		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
+			<coverage_animation_offset>-9.9296236 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-4.9648118 0 -2.4824059 0</noise_animation_offset>
+			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
 		</node>
 	</editor>
 </world>
