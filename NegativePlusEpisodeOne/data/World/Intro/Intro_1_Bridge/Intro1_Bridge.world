@@ -760,8 +760,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>2289.82031</water_time>
-			<octaves_pans>0.898544371 0 -0.898544371 0 0.695657253 0</octaves_pans>
+			<water_time>2751.44458</water_time>
+			<octaves_pans>0.514761806 0 -0.514761806 0 0.544310033 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -798,10 +798,16 @@
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
 		</node>
 		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
-			<coverage_animation_offset>-9.9296236 0 0 0</coverage_animation_offset>
-			<noise_animation_offset>-4.9648118 0 -2.4824059 0</noise_animation_offset>
+			<coverage_animation_offset>-33.0107155 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-16.5053577 0 -8.25267887 0</noise_animation_offset>
 			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="2050642153" name="IntroText">
+			<properties>
+				<property parent="591626ef636927820a35c0f9045df604eb9e0993" guid="b35d1a6804d6baa74403f7da79ad657168b1201c"/>
+			</properties>
+			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.30739665 38.57346 6.2762265 1.0</transform>
 		</node>
 	</editor>
 </world>

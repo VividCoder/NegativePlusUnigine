@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>fc36242a25b18581eb3d20ecc0b3a75bf21fb4fe</guid>
+	<type>material</type>
+	<hash>f2565edf</hash>
+	<runtimes>
+		<runtime id="fc36242a25b18581eb3d20ecc0b3a75bf21fb4fe" name="gui_base_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>
