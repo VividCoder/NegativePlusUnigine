@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>ca04f44452a672d3f73dda16bb9dca7d685509b8</guid>
+	<type>world</type>
+	<hash>cb7e8e5</hash>
+	<runtimes>
+		<runtime id="ca04f44452a672d3f73dda16bb9dca7d685509b8" name="Intro1_Bridge.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="script_name"/>
+	</parameters>
+</asset>
