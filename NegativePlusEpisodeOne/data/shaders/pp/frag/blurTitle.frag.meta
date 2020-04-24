@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6e0c458a813d7761f297a94c8402d43bcae63c5e</guid>
+	<type>file</type>
+	<hash>f48ae1fc</hash>
+	<runtimes>
+		<runtime id="6e0c458a813d7761f297a94c8402d43bcae63c5e" name="blurTitle.frag" link="0"/>
+	</runtimes>
+</asset>

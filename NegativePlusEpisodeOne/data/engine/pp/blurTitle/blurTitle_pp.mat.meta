@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>7ee18efccd14aef104fea011b4c9eda4b87118cb</guid>
+	<type>material</type>
+	<hash>45b50a9d</hash>
+	<runtimes>
+		<runtime id="24d024e8dc0b42bd2e148bad67a79b16b257dc6f" name="custom_post" link="0"/>
+	</runtimes>
+</asset>

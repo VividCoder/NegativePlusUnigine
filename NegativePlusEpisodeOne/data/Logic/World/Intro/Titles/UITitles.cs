@@ -17,7 +17,7 @@ public class UITitles : Component
 	public List<string> Titles;
 
 	[ParameterSlider(Min = 0.1f,Max = 30.0f)]
-	public float TitleTime = 3000;
+	public float TitleTime = 5.0f;
 
 	private int curTitle = 0;
 	private float titleEnd = 0;

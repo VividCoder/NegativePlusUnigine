@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a949802ea2bac9b59ef64f9037b45daf14026f42</guid>
+	<type>material</type>
+	<hash>88fefa2a</hash>
+	<runtimes>
+		<runtime id="a949802ea2bac9b59ef64f9037b45daf14026f42" name="title_blur_post_0" link="0"/>
+	</runtimes>
+</asset>

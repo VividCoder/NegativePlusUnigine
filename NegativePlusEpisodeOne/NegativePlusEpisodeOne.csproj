@@ -45,6 +45,7 @@
 		</Reference>
 		<Compile Include="data/Logic/World/Intro/Titles/TitleSeq.cs"/>
 		<Compile Include="data/Logic/World/Intro/Titles/UITitles.cs"/>
+		<Compile Include="data/Logic/World/Intro/Titles/UITitlesNG.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
