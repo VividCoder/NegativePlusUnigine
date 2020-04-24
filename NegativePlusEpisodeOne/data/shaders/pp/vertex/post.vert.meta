@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>aee5ae35a4aeea102623362f7e666dc22f4fd239</guid>
+	<type>file</type>
+	<hash>24f34ae3</hash>
+	<runtimes>
+		<runtime id="aee5ae35a4aeea102623362f7e666dc22f4fd239" name="post.vert" link="0"/>
+	</runtimes>
+</asset>

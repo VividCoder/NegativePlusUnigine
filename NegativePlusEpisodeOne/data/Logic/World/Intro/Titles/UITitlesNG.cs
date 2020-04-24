@@ -48,12 +48,15 @@ string img_file = Titles[curTitle];
 
 	Image i1 = new Image(img_file);
 	
+
 	WidgetSpriteShader s1 = new WidgetSpriteShader(ui,ppMat.Name);
 	s1.Material = ppMat;
 		s1.SetImage(i1,0);
-		s1.SetPosition(20,20);
+		s1.SetPosition(220,20);
 		s1.Width = 512;
 		s1.Height = 128;
+s1.Arrange();
+//s1.
 
 	
 

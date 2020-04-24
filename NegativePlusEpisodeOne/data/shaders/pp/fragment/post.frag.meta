@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>13215e4cb61f053b5adab95e1993d125dae25040</guid>
+	<type>file</type>
+	<hash>f5f80f6e</hash>
+	<runtimes>
+		<runtime id="13215e4cb61f053b5adab95e1993d125dae25040" name="post.frag" link="0"/>
+	</runtimes>
+</asset>

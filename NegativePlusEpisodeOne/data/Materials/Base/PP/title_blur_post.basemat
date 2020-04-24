@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base_material version="2.11" name="titleblur_post" editable="0">
+
+	<!-- Post-effect shaders -->
+	<shader pass="post"
+		defines="BASE_POST"
+		vertex="shaders/pp/vertex/post.vert"
+		fragment="shaders/pp/fragment/post.frag"/>
+	
+	<!-- Textures -->
+	<texture name="color" pass="post" unit="0" type="procedural"/>
+	
+	<!-- Parameters -->
+	<parameter name="grayscale_power" type="slider" shared="1" min="0.0" max="1.0"
+	flags="max_expand">0.5</parameter>
+	
+</base_material>

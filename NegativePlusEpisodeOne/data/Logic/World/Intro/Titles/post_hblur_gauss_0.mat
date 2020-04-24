@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="post_hblur_gauss_0" guid="e088c40345c51986cdb2a32dcaea2aa801ba0de7" base_material="post_hblur_gauss">
+	<parameter name="radius" expression="0">1</parameter>
+</material>

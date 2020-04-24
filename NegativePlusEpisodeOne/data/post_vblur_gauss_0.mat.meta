@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>d76b4d567b1824bdb1c11ef83bcc55f7152ebaea</guid>
+	<type>material</type>
+	<hash>21c7ed87</hash>
+	<runtimes>
+		<runtime id="d76b4d567b1824bdb1c11ef83bcc55f7152ebaea" name="post_vblur_gauss_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

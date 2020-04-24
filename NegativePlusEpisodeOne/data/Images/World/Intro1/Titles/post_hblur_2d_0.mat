@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<material version="2.11.0.0" name="post_hblur_2d_0" guid="2bab0d2fe4f658c2af40c139ce467944a1f833d3" base_material="post_hblur_2d">
-	<blend src="one" dest="one"/>
-	<options transparent="2"/>
-</material>

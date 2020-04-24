@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>6233a80d3748aa0899a6c5c7cd23487aca043d91</guid>
+	<type>material</type>
+	<hash>a2784406</hash>
+	<runtimes>
+		<runtime id="6233a80d3748aa0899a6c5c7cd23487aca043d91" name="post_blur_radial_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

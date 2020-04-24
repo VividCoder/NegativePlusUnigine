@@ -6,7 +6,7 @@
 		</settings>
 	</data>
 	<sound>
-		<enabled>1</enabled>
+		<enabled>0</enabled>
 		<attenuation>3</attenuation>
 	</sound>
 	<render>
@@ -629,7 +629,7 @@
 				<occlusion>0</occlusion>
 				<occlusion_mask>-1</occlusion_mask>
 				<adaptation>0.25</adaptation>
-				<time>149.451874</time>
+				<time>0</time>
 				<pitch>1</pitch>
 				<gain>1</gain>
 				<room_rolloff>0</room_rolloff>
@@ -640,12 +640,12 @@
 				<cone_outer_angle>180</cone_outer_angle>
 				<cone_outer_gain>0</cone_outer_gain>
 				<cone_outer_gain_hf>1</cone_outer_gain_hf>
-				<playing>0</playing>
+				<playing>1</playing>
 				<transform>0.99999994 0 -3.5762784e-07 0.0 -3.5762784e-07 0 -0.99999994 0.0 0 0.99999994 0 0.0 -1.2668531 2.6921406 -4.9803905 1.0</transform>
 			</node>
 			<node type="ObjectGui" id="291078773" name="ObjectGui">
 				<gui_name>core/gui/</gui_name>
-				<billboard>0</billboard>
+				<billboard>1</billboard>
 				<background>0</background>
 				<depth_test>1</depth_test>
 				<mouse_show>1</mouse_show>
@@ -659,7 +659,7 @@
 				<properties>
 					<property parent="173ca1975aa4520a527119e10375e9cc397f1abb" guid="2adfa0e53a425d00b7dbac5fee8b8e32d70f17e9">
 						<parameter name="ObjUI">291078773</parameter>
-						<parameter name="ppMat">a949802ea2bac9b59ef64f9037b45daf14026f42</parameter>
+						<parameter name="ppMat">6233a80d3748aa0899a6c5c7cd23487aca043d91</parameter>
 						<parameter name="Titles">
 							<value index="0">guid://70c9d56738c4d39a34c70e319cfb31dc298a238b</value>
 							<value index="1">guid://4ef1039fa0a47c721580b129e78f487428e7d943</value>
@@ -786,8 +786,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>4870.01855</water_time>
-			<octaves_pans>0.702434778 0 -0.702434778 0 0.107310578 0</octaves_pans>
+			<water_time>7509.03125</water_time>
+			<octaves_pans>0.109547883 0 -0.109547883 0 0.32866776 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -824,8 +824,8 @@
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
 		</node>
 		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
-			<coverage_animation_offset>-104.798523 0 0 0</coverage_animation_offset>
-			<noise_animation_offset>-51.8294983 0 -25.9147491 0</noise_animation_offset>
+			<coverage_animation_offset>-67.0965424 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-16.2643108 0 -8.13215542 0</noise_animation_offset>
 			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
 		</node>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="post_vblur_gauss_0" guid="d76b4d567b1824bdb1c11ef83bcc55f7152ebaea" base_material="post_vblur_gauss">
+	<parameter name="radius" expression="0">14.4166002</parameter>
+</material>

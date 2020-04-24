@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>a91b108a38dfc661a84fac4c5a8cfb3b8a74375e</guid>
+	<type>material</type>
+	<hash>f9482c54</hash>
+	<runtimes>
+		<runtime id="a91b108a38dfc661a84fac4c5a8cfb3b8a74375e" name="post_hblur_2d_0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

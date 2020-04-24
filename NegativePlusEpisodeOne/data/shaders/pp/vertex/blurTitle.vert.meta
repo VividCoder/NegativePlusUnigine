@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<asset version="2.11.0.0">
-	<guid>0fc8ae3302031df6818d7cdd61f35898d1ef0317</guid>
-	<type>file</type>
-	<hash>ddcc6a2c</hash>
-	<runtimes>
-		<runtime id="0fc8ae3302031df6818d7cdd61f35898d1ef0317" name="blurTitle.vert" link="0"/>
-	</runtimes>
-</asset>

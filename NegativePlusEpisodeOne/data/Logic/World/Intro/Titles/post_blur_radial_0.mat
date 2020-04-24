@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.11.0.0" name="post_blur_radial_0" guid="6233a80d3748aa0899a6c5c7cd23487aca043d91" base_material="post_blur_radial">
+	<blend src="zero" dest="zero"/>
+	<options overlap="1"/>
+</material>
