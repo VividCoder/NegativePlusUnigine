@@ -3,17 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using Unigine;
 
-[Component(PropertyGuid = "7d31a23c3674186ba481d2cee722bbd527d65b30")]
-public class UITitles : Component
+[Component(PropertyGuid = "061d2e37afb3362ada376f814b4602ec3d33215b")]
+public class UITitlesText : Component
 {
-
 	private Gui tg;
 
 	[ShowInEditor]
 	public ObjectGui ObjUI;
 
 	
-	[ParameterFile]
+	[Parameter]
 	public List<string> Titles;
 
 	[ParameterSlider(Min = 0.1f,Max = 30.0f)]
@@ -26,12 +25,13 @@ public class UITitles : Component
 
 	private Gui ui = null;
 
-	private List<WidgetSprite> curSprites = new List<WidgetSprite>();
+	private List<WidgetLabel> curSprites = new List<WidgetLabel>();
 
 	private void nextTile(){
 
 		if(curTitle>=Titles.Count)
 		{
+			Log.Error("Nope");
 			return;
 		}
 
@@ -53,7 +53,9 @@ public class UITitles : Component
 		
 string img_file = Titles[curTitle];
 
-	Image i1 = new Image(img_file);
+//	Image i1 = new Image(img_file);
+
+	Log.Message("Title:"+img_file);
 
 		float ang = 0;
 
@@ -64,16 +66,16 @@ string img_file = Titles[curTitle];
 			float my = Unigine.MathLib.Sin(ang) * 80;
 
 
-			WidgetSprite s1 = new WidgetSprite(ui);
-			s1.SetImage(i1, 0);
+
+			WidgetLabel s1 = new WidgetLabel(ui,img_file);
 			s1.SetPosition(200+(int)mx, 200+(int)my);
 			s1.Width = 512;
 			s1.Height = 128;
 
-			int sc = Gui.BLEND_ONE;
+			//int sc = Gui.BLEND_ONE;
 
-			s1.SetBlendFunc(sc,Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
-			s1.SetLayerBlendFunc(0,sc, Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
+		//	s1.SetBlendFunc(sc,Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
+	//		s1.SetLayerBlendFunc(0,sc, Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
 			ui.AddChild(s1, Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
 
 			ang = ang + 45;
@@ -135,8 +137,11 @@ string img_file = Titles[curTitle];
 		{
 			for (int i = 0; i < 8; i++)
 			{
-				WidgetSprite s1 = curSprites[i];
-				s1.Color = new vec4(rv*0.3f, rv*0.3f, rv*0.3f, rv*0.3f);
+				WidgetLabel s1 = curSprites[i];
+//				s1.Color = new vec4(rv*0.3f, rv*0.3f, rv*0.3f, rv*0.3f);
+
+
+	//ang = ang * Unigine.MathLib.DEG2RAD;
 
 
 				float mx = Unigine.MathLib.Cos(ang) * 80 * (1.0f-rv);
@@ -147,7 +152,6 @@ string img_file = Titles[curTitle];
 				ang = ang + 45;
 			}
 		}
-
 
 	}
 }

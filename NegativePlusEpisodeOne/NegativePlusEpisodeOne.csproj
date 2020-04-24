@@ -43,9 +43,7 @@
 			<HintPath Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">bin\UnigineSharpCore_x64d.dll</HintPath>
 			<HintPath Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">bin\UnigineSharpCore_x64.dll</HintPath>
 		</Reference>
-		<Compile Include="data/Logic/World/Intro/Titles/TitleSeq.cs"/>
-		<Compile Include="data/Logic/World/Intro/Titles/UITitles.cs"/>
-		<Compile Include="data/Logic/World/Intro/Titles/UITitlesNG.cs"/>
+		<Compile Include="data/Logic/World/Intro/Titles/UITitlesText.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>

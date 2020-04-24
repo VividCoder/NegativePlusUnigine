@@ -657,12 +657,14 @@
 				<screen_height>768</screen_height>
 				<surface name="gui" physics_friction="1" physics_restitution="1" material="45130945fbfdc3e6f898cbb99e9d01e51d3f4bbd"/>
 				<properties>
-					<property parent="7d31a23c3674186ba481d2cee722bbd527d65b30" guid="49ab47e63e3d3e0ddb8948081de2cbc70493967a">
+					<property parent="061d2e37afb3362ada376f814b4602ec3d33215b" guid="68d11425d4b0b74057abc19f07d4227285101f29">
 						<parameter name="ObjUI">291078773</parameter>
 						<parameter name="Titles">
-							<value index="0">guid://70c9d56738c4d39a34c70e319cfb31dc298a238b</value>
-							<value index="1">guid://4ef1039fa0a47c721580b129e78f487428e7d943</value>
-							<value index="2">guid://e850adc6261aaa6d705608e81701d727260f6a5a</value>
+							<value index="0">Horizons Software</value>
+							<value index="1">Presents</value>
+							<value index="2">An Antony Rob Wells Game</value>
+							<value index="3">-Negative Plus+</value>
+							<value index="4">Coding by Antony Wells</value>
 						</parameter>
 					</property>
 				</properties>
@@ -785,8 +787,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>7633.13818</water_time>
-			<octaves_pans>0.351259202 0 -0.351259202 0 0.053803239 0</octaves_pans>
+			<water_time>7879.66895</water_time>
+			<octaves_pans>0.819506764 0 -0.819506764 0 0.458539575 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -823,14 +825,14 @@
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
 		</node>
 		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
-			<coverage_animation_offset>-73.3050156 0 0 0</coverage_animation_offset>
-			<noise_animation_offset>-19.3685341 0 -9.68426704 0</noise_animation_offset>
+			<coverage_animation_offset>-85.6460571 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-25.5392838 0 -12.7696419 0</noise_animation_offset>
 			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="2050642153" name="IntroText">
 			<properties>
-				<property parent="591626ef636927820a35c0f9045df604eb9e0993" guid="b35d1a6804d6baa74403f7da79ad657168b1201c"/>
+				<property/>
 			</properties>
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 -0.30739665 38.57346 6.2762265 1.0</transform>
 		</node>
