@@ -16,11 +16,11 @@ public class UITitles : Component
 	[ParameterFile]
 	public List<string> Titles;
 
-	[ShowInEditor]
-	public float TileTime;
+	[ParameterSlider(Min = 0.1f,Max = 30.0f)]
+	public float TitleTime = 3000;
 
-	private int curTile = 0;
-	private float tileEnd = 0;
+	private int curTitle = 0;
+	private float titleEnd = 0;
 
 	private Widget curWid = null;
 
@@ -28,13 +28,13 @@ public class UITitles : Component
 
 	private void nextTile(){
 
-		if(curTile>=Titles.Count)
+		if(curTitle>=Titles.Count)
 		{
 			return;
 		}
 
 
-		tileEnd = Game.Time + TileTime; 
+		titleEnd = Game.Time + TitleTime;
 		if(curWid!=null){
 
 			ui.RemoveChild(curWid);
@@ -42,7 +42,7 @@ public class UITitles : Component
 		}
 
 		
-string img_file = Titles[curTile];
+string img_file = Titles[curTitle];
 
 	Image i1 = new Image(img_file);
 	
@@ -52,11 +52,13 @@ string img_file = Titles[curTile];
 		s1.Width = 512;
 		s1.Height = 128;
 
+	
+
 		ui.AddChild(s1,Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
 
 		curWid = s1;
 
-		curTile++;
+		curTitle++;
 
 	}
 
@@ -65,7 +67,7 @@ string img_file = Titles[curTile];
 		// write here code to be called on component initialization
 //		var ui = Gui.Get();
 
-		tileEnd = Game.Time;
+		titleEnd = Game.Time;
 
 		ui = ObjUI.GetGui();
 
@@ -88,7 +90,7 @@ string img_file = Titles[curTile];
 	{
 		// write here code to be called before updating each render frame
 		
-		if(Game.Time > tileEnd){
+		if(Game.Time > titleEnd){
 
 			Log.Message("Changing Title");
 			nextTile();
