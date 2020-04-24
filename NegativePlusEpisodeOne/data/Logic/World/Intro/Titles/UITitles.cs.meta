@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.11.0.0">
+	<guid>0d730a8dc93faa8879e4cc4789609cfa094c8811</guid>
+	<type>component</type>
+	<hash>c6d281b6</hash>
+	<runtimes>
+		<runtime id="0d730a8dc93faa8879e4cc4789609cfa094c8811" name="UITitles.cs" link="0"/>
+		<runtime id="7d31a23c3674186ba481d2cee722bbd527d65b30" name="UITitles.prop" link="1"/>
+	</runtimes>
+</asset>

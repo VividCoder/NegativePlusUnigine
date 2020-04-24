@@ -11,14 +11,14 @@ public class TitleSeq : Component
 		// write here code to be called on component initialization
 		Unigine.Console.Run("show_messages 1");
 		
-		 Unigine.Log.Message("Begun title sequence./n");
-Unigine.Console.Flush();
+
+
 
 	}
 	
 	private void Update()
 	{
 		// write here code to be called before updating each render frame
-		
+			//	Unigine.Log.Message("Begun title sequence./n");
 	}
 }
