@@ -12,15 +12,62 @@ public class UITitles : Component
 	[ShowInEditor]
 	public ObjectGui ObjUI;
 
+	
 	[ParameterFile]
-	public string img1_file;
+	public List<string> Titles;
+
+	[ShowInEditor]
+	public float TileTime;
+
+	private int curTile = 0;
+	private float tileEnd = 0;
+
+	private Widget curWid = null;
+
+	private Gui ui = null;
+
+	private void nextTile(){
+
+		if(curTile>=Titles.Count)
+		{
+			return;
+		}
+
+
+		tileEnd = Game.Time + TileTime; 
+		if(curWid!=null){
+
+			ui.RemoveChild(curWid);
+
+		}
+
+		
+string img_file = Titles[curTile];
+
+	Image i1 = new Image(img_file);
+	
+	WidgetSprite s1 = new WidgetSprite(ui);
+		s1.SetImage(i1,0);
+		s1.SetPosition(20,20);
+		s1.Width = 512;
+		s1.Height = 128;
+
+		ui.AddChild(s1,Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
+
+		curWid = s1;
+
+		curTile++;
+
+	}
 
 	private void Init()
 	{
 		// write here code to be called on component initialization
 //		var ui = Gui.Get();
 
-		Gui ui = ObjUI.GetGui();
+		tileEnd = Game.Time;
+
+		ui = ObjUI.GetGui();
 
 
 		WidgetLabel lab1 = new WidgetLabel(ui,"Testing and work!");
@@ -31,17 +78,9 @@ public class UITitles : Component
 
 		ui.AddChild(lab1,Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
 
-
-	Image i1 = new Image(img1_file);
+		nextTile();
 	
-	WidgetSprite s1 = new WidgetSprite(ui);
-		s1.SetImage(i1,0);
-		s1.SetPosition(20,20);
-		s1.Width = 128;
-		s1.Height = 128;
-
-		ui.AddChild(s1,Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
-	
+		Unigine.Console.Run("show_messages 1");
 
 	}
 	
@@ -49,5 +88,12 @@ public class UITitles : Component
 	{
 		// write here code to be called before updating each render frame
 		
+		if(Game.Time > tileEnd){
+
+			Log.Message("Changing Title");
+			nextTile();
+
+		}
+
 	}
 }

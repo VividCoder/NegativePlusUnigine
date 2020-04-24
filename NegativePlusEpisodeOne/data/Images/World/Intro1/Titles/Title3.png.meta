@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asset version="2.11.0.0">
-	<guid>ad825bb4f12b5383e6b3630618955ead3ea2b028</guid>
+	<guid>d2c9ff4c5ad5323bb309025e26038625abac8140</guid>
 	<type>texture</type>
-	<hash>83b764ee</hash>
+	<hash>cda89eee</hash>
 	<runtimes>
-		<runtime id="ad825bb4f12b5383e6b3630618955ead3ea2b028" name="Title1.png" link="0"/>
-		<runtime id="70c9d56738c4d39a34c70e319cfb31dc298a238b" name="Title1.dds" link="1"/>
+		<runtime id="d2c9ff4c5ad5323bb309025e26038625abac8140" name="Title3.png" link="0"/>
+		<runtime id="e850adc6261aaa6d705608e81701d727260f6a5a" name="Title3.dds" link="1"/>
 	</runtimes>
 	<parameters>
 		<parameter type="string" name="mipmap_type">box</parameter>
-		<parameter type="string" name="image_format">RGBA8</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
 		<parameter type="bool" name="invert_g">0</parameter>
 		<parameter type="string" name="image_type">2d</parameter>
 		<parameter type="string" name="width">auto</parameter>
