@@ -657,8 +657,9 @@
 				<screen_height>768</screen_height>
 				<surface name="gui" physics_friction="1" physics_restitution="1" material="45130945fbfdc3e6f898cbb99e9d01e51d3f4bbd"/>
 				<properties>
-					<property parent="7d31a23c3674186ba481d2cee722bbd527d65b30" guid="066c2c5dfeaf42187402de9702036b0a273b5ee1">
-						<parameter name="oui">291078773</parameter>
+					<property parent="7d31a23c3674186ba481d2cee722bbd527d65b30" guid="5dabf52872c0566722af609a4ede37312b7e46dc">
+						<parameter name="ObjUI">291078773</parameter>
+						<parameter name="img1_file">guid://70c9d56738c4d39a34c70e319cfb31dc298a238b</parameter>
 					</property>
 				</properties>
 				<transform>1.43022 -1.6938538e-05 0.00069806474 0.0 1.0998783e-08 1.2433592 0.030147539 0.0 -0.00048822531 -0.024239698 0.9997052 0.0 0.012043655 -0.010141373 -0.3103199 1.0</transform>
@@ -780,8 +781,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>3253.78003</water_time>
-			<octaves_pans>0.538328648 0 -0.538328648 0 0.614991903 0</octaves_pans>
+			<water_time>3574.47998</water_time>
+			<octaves_pans>0.74513346 0 -0.74513346 0 0.235400066 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -818,8 +819,8 @@
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
 		</node>
 		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
-			<coverage_animation_offset>-23.9784279 0 0 0</coverage_animation_offset>
-			<noise_animation_offset>-11.4195499 0 -5.70977497 0</noise_animation_offset>
+			<coverage_animation_offset>-40.0123711 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-19.4364948 0 -9.71824741 0</noise_animation_offset>
 			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
 		</node>
