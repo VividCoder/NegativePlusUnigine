@@ -657,9 +657,8 @@
 				<screen_height>768</screen_height>
 				<surface name="gui" physics_friction="1" physics_restitution="1" material="45130945fbfdc3e6f898cbb99e9d01e51d3f4bbd"/>
 				<properties>
-					<property parent="173ca1975aa4520a527119e10375e9cc397f1abb" guid="2adfa0e53a425d00b7dbac5fee8b8e32d70f17e9">
+					<property parent="7d31a23c3674186ba481d2cee722bbd527d65b30" guid="49ab47e63e3d3e0ddb8948081de2cbc70493967a">
 						<parameter name="ObjUI">291078773</parameter>
-						<parameter name="ppMat">6233a80d3748aa0899a6c5c7cd23487aca043d91</parameter>
 						<parameter name="Titles">
 							<value index="0">guid://70c9d56738c4d39a34c70e319cfb31dc298a238b</value>
 							<value index="1">guid://4ef1039fa0a47c721580b129e78f487428e7d943</value>
@@ -786,8 +785,8 @@
 			</node>
 		</node>
 		<node type="ObjectWaterGlobal" id="1558342879" name="ObjectWaterGlobal">
-			<water_time>7509.03125</water_time>
-			<octaves_pans>0.109547883 0 -0.109547883 0 0.32866776 0</octaves_pans>
+			<water_time>7633.13818</water_time>
+			<octaves_pans>0.351259202 0 -0.351259202 0 0.053803239 0</octaves_pans>
 			<surface name="water_surface" physics_friction="1" physics_restitution="1" material="f1afa5f8b3b330f78a29d9ea353c404138711cac"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 7.1218681 30.774265 1.0314424 1.0</transform>
 		</node>
@@ -824,8 +823,8 @@
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.40257645 33.341061 7.1893091 1.0</transform>
 		</node>
 		<node type="ObjectCloudLayer" id="1326225897" name="ObjectCloudLayer">
-			<coverage_animation_offset>-67.0965424 0 0 0</coverage_animation_offset>
-			<noise_animation_offset>-16.2643108 0 -8.13215542 0</noise_animation_offset>
+			<coverage_animation_offset>-73.3050156 0 0 0</coverage_animation_offset>
+			<noise_animation_offset>-19.3685341 0 -9.68426704 0</noise_animation_offset>
 			<surface name="clouds_surface" physics_friction="1" physics_restitution="1" material="70889d39d4538634ad8be842640f7206ffd17c21"/>
 			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 26.692503 37.222042 1000 1.0</transform>
 		</node>

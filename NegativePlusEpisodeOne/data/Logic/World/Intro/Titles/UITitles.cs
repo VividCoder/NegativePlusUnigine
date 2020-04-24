@@ -26,6 +26,8 @@ public class UITitles : Component
 
 	private Gui ui = null;
 
+	private List<WidgetSprite> curSprites = new List<WidgetSprite>();
+
 	private void nextTile(){
 
 		if(curTitle>=Titles.Count)
@@ -35,9 +37,16 @@ public class UITitles : Component
 
 
 		titleEnd = Game.Time + TitleTime;
-		if(curWid!=null){
+		if(curSprites.Count>0){
 
-			ui.RemoveChild(curWid);
+			for(int i = 0; i < 8; i++)
+			{
+				ui.RemoveChild(curSprites[i]);
+			}
+
+
+			curSprites.Clear();
+//			ui.RemoveChild(curWid);
 
 		}
 
@@ -45,18 +54,37 @@ public class UITitles : Component
 string img_file = Titles[curTitle];
 
 	Image i1 = new Image(img_file);
-	
-	WidgetSprite s1 = new WidgetSprite(ui);
-		s1.SetImage(i1,0);
-		s1.SetPosition(20,20);
-		s1.Width = 512;
-		s1.Height = 128;
 
-	
+		float ang = 0;
 
-		ui.AddChild(s1,Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
+		for (int i = 0; i < 8; i++)
+		{
 
-		curWid = s1;
+			float mx = Unigine.MathLib.Cos(ang) * 80;
+			float my = Unigine.MathLib.Sin(ang) * 80;
+
+
+			WidgetSprite s1 = new WidgetSprite(ui);
+			s1.SetImage(i1, 0);
+			s1.SetPosition(200+(int)mx, 200+(int)my);
+			s1.Width = 512;
+			s1.Height = 128;
+
+			int sc = Gui.BLEND_ONE;
+
+			s1.SetBlendFunc(sc,Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
+			s1.SetLayerBlendFunc(0,sc, Unigine.Gui.BLEND_ONE_MINUS_SRC_ALPHA);
+			ui.AddChild(s1, Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
+
+			ang = ang + 45;
+
+			curSprites.Add(s1);
+
+		}
+
+
+		//curWid = s1;
+
 
 		curTitle++;
 
@@ -96,6 +124,30 @@ string img_file = Titles[curTitle];
 			nextTile();
 
 		}
+
+		float tv = titleEnd - Game.Time;
+		float rv = tv / TitleTime;
+		rv = 1.0f - rv;
+
+		float ang = 0.0f;
+
+		if (curSprites.Count > 0)
+		{
+			for (int i = 0; i < 8; i++)
+			{
+				WidgetSprite s1 = curSprites[i];
+				s1.Color = new vec4(rv*0.3f, rv*0.3f, rv*0.3f, rv*0.3f);
+
+
+				float mx = Unigine.MathLib.Cos(ang) * 80 * (1.0f-rv);
+				float my = Unigine.MathLib.Sin(ang) * 80 * (1.0f-rv);
+
+				s1.SetPosition(200 + (int)mx, 200 + (int)my);
+
+				ang = ang + 45;
+			}
+		}
+
 
 	}
 }
